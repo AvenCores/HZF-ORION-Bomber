@@ -13,7 +13,7 @@ ___
 
 ___
 # ⬇️Нужна помощь? Пиши нам!⬇️
-## [**`Телеграм канал`**](https://t.me/hzfnews) `или` [**`FeedBack chat`**](https://t.me/orion_feedback_bot)
+## [**`Телеграм канал`**](https://t.me/hzfnews) `или` [**`FeedBack chat`**](https://t.me/+MDOUaUZzWlEwNjRi)
 #
 ___
 # 🌐Установка
