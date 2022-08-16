@@ -14,7 +14,7 @@ while True:
 	tools.banner()
 	tools.banner_tools()
 
-	tool = input(colored("\n~# ", "red"))
+	tool = input(colored("\nHZF ORION BOMBER ##>> ", "red"))
 	if tool == "1":
 		numb, ct, pr = tools.start_input()
 		if numb != 0:
