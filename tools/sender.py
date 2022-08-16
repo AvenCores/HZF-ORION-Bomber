@@ -110,7 +110,7 @@ class Send:
             country = "ru"
 
         # load json
-        with open('tools/services.json') as f:
+        with open('tools/services.json', encoding="utf-8") as f:
             services = json.load(f)
         # Getting services by country
         self.services = services[country][0]

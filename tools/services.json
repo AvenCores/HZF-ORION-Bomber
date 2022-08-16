@@ -132,6 +132,13 @@
         "timeout": 30,
         "cookies": "https://sunlight.net/profile/login/?next_encoded=Lw=="
       },
+      "ok.ru": {
+        "url": "https://ok.ru/dk?cmd=AnonymRegistrationEnterPhone&st.cmd=anonymRegistrationEnterPhone&st.cmd=anonymRegistrationEnterPhone",
+        "data": "{'st.r.phone': '*phone*'}",
+        "response": 200,
+        "timeout": 60,
+        "cookies": "https://ok.ru/"
+      },
       "citystar": {
         "url": "https://citystarwear.com/bitrix/templates/bspc/php/bs.auth.sms/templates/pc/handlers.php",
         "data": "{'hdlr': 'bsSendCodeAuth','bshsmsk': 'h5Plm22xoaFs9YTp', 'phone': '*-phone*', 'xemail': '', 'xphone': ''}",
@@ -139,8 +146,15 @@
         "timeout": 180
       },
       "beerlogapizza": {
-        "url": "https://beerlogapizza.ru/include/recall_me.php",
-        "data": "{'fio': 'Антон','phone': '*+phone*'}",
+        "url": "https://smsc.ru/sys/send.php",
+        "data": "{'login': 'beerlogaa@gmail.com', 'psw': 'QWE780p', 'phones': '*+phone*', 'mes': 'code', 'call': '1', 'fmt': '3'}",
+        "response": 200,
+        "timeout": 60,
+        "cookies": "https://beerlogapizza.ru/login/"
+      },
+      "pizzamia":{
+        "url": "https://1603.smartomato.ru/account/session",
+        "data": "{'g-recaptcha-response': 'null','phone': '*phone3*'}",
         "response": 200,
         "timeout": 60
       },
@@ -154,13 +168,28 @@
         "url": "https://fe.dominospizza.ru/api/authentication/customer?phoneNumber=*phone3*",
         "response": 200,
         "timeout": 60
-      },
-      "pizzamia":{
-        "url": "https://1603.smartomato.ru/account/session",
-        "data": "{'g-recaptcha-response:' 'null','phone:' '*phone3*'}",
-        "response": 200,
-        "timeout": 60
+       },
+       "av.by": {
+         "url": "https://api.av.by/auth/phone/sign-up",
+         "json": "{\"name\":\"Олег\",\"password\":\"HifbWy523i46oO\",\"phone\":{\"country\":1,\"number\":\"*-phone*\"},\"userEula\":{\"accepted\":true}}",
+         "response": 204,
+         "timeout": 60,
+         "cookies": "https://av.by"
+       },
+       "carte": {
+         "url": "https://carte.by/auth/",
+         "data": "{'ajax': 'register', 'login': 'Olegkiller229', 'pass': 'CbivnE5316', 'phone': '*+phone*', 'code': '', 'company': 0, 'resend': 1, 'checksum': 675}",
+         "response": 200,
+         "timeout": 30,
+         "cookies": "https://carte.by/"
+       },
+       "delivio": {
+         "url": "https://delivio.by/be/api/register",
+         "json": "{'phone': '*+phone*'}",
+         "response": 201,
+         "timeout": 60,
+         "cookies": "https://delivio.by/"
+        }
       }
-    }
-  ]
-}
+    ]
+  }
