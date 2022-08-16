@@ -16,6 +16,7 @@ ___
 
 ___
 # ⬇️Видео по установке и использовани⬇️
+https://img.shields.io/youtube/views/0BY_QHnLCGE
 ## [**`YouTube Video`**](https://www.youtube.com/watch?v=0BY_QHnLCGE)
 
 ___
