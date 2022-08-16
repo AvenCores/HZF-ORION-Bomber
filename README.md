@@ -1,9 +1,9 @@
 [![License](https://img.shields.io/github/license/MajickTek/GPL3.0?color=green&label=License)](https://opensource.org/licenses/GPL-3.0)
 
-# 💣ORION-Bomber💫
+# 💣HZF-ORION-Bomber💫
 #
 # 💻Меню
-![Alt-текст](https://i.ibb.co/8NfpYW3/image.png)
+![Alt-текст](https://user-images.githubusercontent.com/64781822/184852478-aa8d4950-4ccf-4f59-89a2-657938a56810.png)
 ___
 # ❤️️**Без них не обошлись**
 | Метод | Описание | Ссылки|
@@ -13,7 +13,7 @@ ___
 
 ___
 # ⬇️Нужна помощь? Пиши нам!⬇️
-## [**`Телеграм канал`**](https://t.me/orion_bomber) `или` [**`FeedBack BOT`**](https://t.me/orion_feedback_bot)
+## [**`Телеграм канал`**](https://t.me/hzfnews) `или` [**`FeedBack chat`**](https://t.me/orion_feedback_bot)
 #
 ___
 # 🌐Установка
@@ -24,21 +24,21 @@ ___
   + `pkg install git`
   + `pkg install python -y`
   + `pip install --upgrade pip`
-  + `git clone https://github.com/Lucky1376/ORION-Bomber`
-  + `cd ORION-Bomber`
+  + `git clone https://github.com/AvenCores/HZF-ORION-Bomber`
+  + `cd HZF-ORION-Bomber`
   + `pip install -r requirements.txt`
   + `python main.py`
 
 + #### **Windows:**
   + `Требуется 64 битная система`
   + `Установить Python, при установке выбрать` **`add python to PATH`**
-  + `Python recommended 3.9.6:` [**`Download`**](https://drive.google.com/file/d/1-rt97BpZwgRUTZSH7sAVZNVq7jOC4gsE/view?usp=sharing)
-  + `Скачать архив и распаковать:` [**`ORION-Bomber.zip`**](https://github.com/Lucky1376/ORION-Bomber/archive/refs/heads/master.zip)
+  + `Python recommended 3.10.6:` [**`Download`**](https://www.python.org/)
+  + `Скачать архив и распаковать:` [**`HZF-ORION-Bomber.zip`**](https://github.com/AvenCores/HZF-ORION-Bomber/archive/refs/heads/master.zip)
   + `Открыть` **`cmd`** `или` **`powershell`**
   + `Перейти в директорию с файлами бомбера`
   + `pip install --upgrade pip`
   + `pip install -r requirements.txt`
-  + **`python main.py`**
+  + **`python HZF-ORION-Bomber.py`**
 
 #
 ___
@@ -46,8 +46,3 @@ ___
 
 + #### **QIWI Кошелёк**
   + [**`Перевод по никнейму`**](https://qiwi.com/n/LUCKY1376)
-  + **`2200 7302 4344 6206`** `MIR`
-  + **`4890 4947 5754 5546`** `VISA`
-+ #### **Сбербанк**
-  + **`2202 2024 3331 7181`** `MIR`
-  + **`5469 4500 1265 2996`** `MasterCard`
