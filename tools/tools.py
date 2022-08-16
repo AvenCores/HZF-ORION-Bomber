@@ -42,19 +42,8 @@ def FormattingNumber(number, country):
 			numb_6 = numb[:2] + " (" + numb[2:5] + ") " + numb[5:8] + " - " + numb[8:10] + " - " + numb[10:]
 			numb_7 = numb[:2] + " ("+numb[2:]
 			numb_8 = numb[2:]
-	elif country == "by": # For Belarus
-		if numb[0:1] == "+": # +123456789012
-			numb_1 = numb
-			numb_2 = numb[1:]
-			numb_3 = numb[4:]
-		elif numb[0:1] == "3" or numb[0:3] == "375": # 123456789012
-			numb_1 = "+"+numb
-			numb_2 = numb
-			numb_3 = numb[3:]
 
-	if country == "by":
-		return numb_1, numb_2, numb_3
-	elif country == "ru":
+	if country == "ru":
 		return numb_1, numb_2, numb_3, numb_4, numb_5, numb_6, numb_7, numb_8
 
 def clear():
@@ -205,10 +194,8 @@ def number_ckeck(numb):
 		return False
 
 def start_input():
-	country_code = {"2": "+375",
-					"1": "+7"}
-	country_code_2 = {"2": "by",
-					  "1": "ru"}
+	country_code = {"1": "+7"}
+	country_code_2 = {"1": "ru"}
 	while True:
 		print("")
 		print(colored("[99] Отмена", "red"))
@@ -218,10 +205,6 @@ def start_input():
 		ct = input(colored("Выберите страну: ", "green"))
 		if ct == "1":
 			break
-		elif ct == "2":
-			print("")
-			print(colored("", "yellow"))
-			print("")
 		elif ct == "99":
 			return 0, 0, 0
 	while True:
