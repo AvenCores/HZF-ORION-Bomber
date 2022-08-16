@@ -410,8 +410,8 @@ def CFU():
 						print(colored("Обновление прошло успешно, запускаю HZF-ORION-Bomber...", "green"))
 						time.sleep(1.5)
 
-						os.system("pip install -r requirements.txt")
-						os.system("python main.py")
+						os.system("python Install.py")
+						os.system("python HZF-ORION-Bomber.py")
 						exit()
 					elif platform == "win32":
 						pass
