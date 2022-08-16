@@ -1,5 +1,7 @@
 # 💣HZF-ORION-Bomber💣
 
+[![geonode](https://img.shields.io/badge/Telegram-blue?style=for-the-badge&logo=Telegram)](https://t.me/hzfnews)
+
 # 💻Меню
 ![Alt-текст](https://user-images.githubusercontent.com/64781822/184903301-c6f1cdf7-4060-41d6-9997-80a2c6c6b8ff.png)
 
@@ -12,6 +14,7 @@ ___
 
 ___
 # ⬇️Нужна помощь? Пиши нам!⬇️
+
 ## [**`Телеграм канал`**](https://t.me/hzfnews) `или` [**`FeedBack chat`**](https://t.me/+MDOUaUZzWlEwNjRi)
 
 ___
