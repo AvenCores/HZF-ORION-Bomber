@@ -72,18 +72,21 @@ def banner():
 	  ░ ▒ ▒░   ░▒ ░ ▒░ ▒ ░  ░ ▒ ▒░ ░ ░░   ░ ▒░
 	░ ░ ░ ▒    ░░   ░  ▒ ░░ ░ ░ ▒     ░   ░ ░ 
 	    ░ ░     ░      ░      ░ ░           ░
-
-	               Sms bomber                            
 	""", "red")
+
+	bombbanner = colored("	               [", "blue")+colored("sms bomber", "cyan")+colored("]\n", "blue")
 
 	info = " "*13+colored("[", "blue")+"Developers      :"+colored("HZF", "green")
 	info_2 = " "*13+colored("[", "blue")+"Version         :"+colored(ver, "red")
-	info_3 = " "*13+colored("[", "blue")+"Telegram Channel:"+colored("@hzfnews", "cyan")+colored("   <--", "green")+"\n"
+	info_3 = " "*13+colored("[", "blue")+"Telegram Channel:"+colored("@hzfnews", "cyan")+colored("   <-- Подпишись!", "green")
+	info_4 = " "*13+colored("[", "blue")+"YouTube Channel :"+colored("youtube.com/c/HZFYT", "cyan")+colored("   <-- Подпишись!", "green")+"\n"
 
 	print(banner)
+	print(bombbanner)
 	print(info)
 	print(info_2)
 	print(info_3)
+	print(info_4)
 
 def banner_tools():
 	print(colored("[1]", "red"), colored("Начать спам", "green"))
@@ -91,7 +94,7 @@ def banner_tools():
 	print(colored("[3]", "red"), colored("Краткое руководство проблем", "cyan"))
 	print(colored("[4]", "red"), colored("Отказ от ответственности", "red"))
 	print(colored("[5]", "red"), colored("Поддержать разработчика!    <---", "green"))
-	print(colored("\n[6]", "red"), colored("Перейти в репозиторий GitHub", "magenta"))
+	print(colored("[6]", "red"), colored("Перейти в репозиторий GitHub", "magenta"))
 	print(colored("\n[99]", "red"), colored("Информация", "cyan"))
 	print(colored("\n[0] Выход", "red"))
 
