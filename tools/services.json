@@ -137,17 +137,12 @@
         "data": "{'hdlr': 'bsSendCodeAuth','bshsmsk': 'h5Plm22xoaFs9YTp', 'phone': '*-phone*', 'xemail': '', 'xphone': ''}",
         "response": 200,
         "timeout": 180
-      }
-    }
-  ],
-  "by":
-  [
-    {
-     "telegram": {
-       "url": "https://my.telegram.org/auth/send_password",
-       "data": "{'phone': '*+phone*'}",
-       "response": 200,
-       "timeout": 120
+      },
+      "beerlogapizza": {
+        "url": "https://beerlogapizza.ru/include/recall_me.php",
+        "data": "{'fio': 'Антон','phone': '*phone*'}",
+        "response": 200,
+        "timeout": 60
       }
     }
   ]
