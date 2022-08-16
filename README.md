@@ -1,6 +1,6 @@
 # 💣HZF-ORION-Bomber💣
 
-<a href="https://t.me/hzfnews"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png" width=14 height=14 /> Telegram Channel</a> <a href="https://discord.com/invite/7bneGfUS5h"><img src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-logodownload-download-logotipos-1.png" width=14 height=14 /> Discord</a> 
+<a href="https://www.youtube.com/c/HZFYT/"><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" width=14 height=14 /> YouTube Channel</a> <a href="https://t.me/hzfnews"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png" width=14 height=14 /> Telegram Channel</a> <a href="https://discord.com/invite/7bneGfUS5h"><img src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-logodownload-download-logotipos-1.png" width=14 height=14 /> Discord</a> 
 
 # 💻Меню
 ![Alt-текст](https://user-images.githubusercontent.com/64781822/184903301-c6f1cdf7-4060-41d6-9997-80a2c6c6b8ff.png)
