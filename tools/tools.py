@@ -2,6 +2,7 @@
 
 # Tools for different processing
 
+import webbrowser
 from termcolor import colored
 from datetime import datetime
 import requests as r, os, time, random, shutil, zipfile
@@ -90,6 +91,7 @@ def banner_tools():
 	print(colored("[3]", "red"), colored("Краткое руководство проблем", "cyan"))
 	print(colored("[4]", "red"), colored("Отказ от ответственности", "red"))
 	print(colored("[5]", "red"), colored("Поддержать разработчика!    <---", "green"))
+	print(colored("\n[6]", "red"), colored("Перейти в репозиторий GitHub", "magenta"))
 	print(colored("\n[99]", "red"), colored("Информация", "cyan"))
 	print(colored("\n[0] Выход", "red"))
 
@@ -136,6 +138,12 @@ def faq_proxy():
 	print("")
 	print("")
 	print(colored("Советуем вам использовать ваши собственные покупные прокси если хотите сократить блокировку вашего IP у сервисов и иметь хорошую скорость спама", "green"))
+	print("\nНажмите Enter чтобы вернуться назад")
+	input()
+
+def github():
+	webbrowser.open("https://github.com/AvenCores/HZF-ORION-Bomber")
+	print(colored("Официальная страница проекта была успешно открыта!", "green"))
 	print("\nНажмите Enter чтобы вернуться назад")
 	input()
 
