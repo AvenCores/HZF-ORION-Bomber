@@ -354,7 +354,7 @@ def CFU():
 						os.chdir("/data/data/com.termux/files/home")
 						os.system("rm -rf ORION-Bomber")
 						
-						result = r.get("https://github.com/Lucky1376/ORION-Bomber/archive/refs/heads/master.zip")
+						result = r.get("https://github.com/AvenCores/HZF-ORION-Bomber/archive/refs/heads/master.zip")
 						
 						a = open("ORION-Bomber.zip", "wb")
 						a.write(result.content)
