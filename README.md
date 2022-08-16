@@ -1,7 +1,5 @@
-[![License](https://img.shields.io/github/license/MajickTek/GPL3.0?color=green&label=License)](https://opensource.org/licenses/GPL-3.0)
-
 # 💣HZF-ORION-Bomber💫
-#
+
 # 💻Меню
 ![Alt-текст](https://user-images.githubusercontent.com/64781822/184852478-aa8d4950-4ccf-4f59-89a2-657938a56810.png)
 ___
