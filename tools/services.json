@@ -154,6 +154,12 @@
         "url": "https://fe.dominospizza.ru/api/authentication/customer?phoneNumber=*phone3*",
         "response": 200,
         "timeout": 60
+      },
+      "pizzamia":{
+        "url": "https://1603.smartomato.ru/account/session",
+        "data": "{'g-recaptcha-response:' 'null','phone:' '*phone3*'}",
+        "response": 200,
+        "timeout": 60
       }
     }
   ]
