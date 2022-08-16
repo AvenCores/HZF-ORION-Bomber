@@ -22,6 +22,7 @@ ___
 ___
 # ⬇️Видео по установке и использовани⬇️
 ## [**`YouTube Video`**](https://www.youtube.com/watch?v=0BY_QHnLCGE)
+[![image](https://user-images.githubusercontent.com/64781822/184990351-5eb9c3d3-6f49-4fe2-ba36-19596390695e.png)](https://www.youtube.com/watch?v=0BY_QHnLCGE)
 
 ___
 # 🌐Установка
@@ -37,7 +38,7 @@ ___
   + `python Install.py`
   + `python HZF-ORION-Bomber.py`
 
-+ #### **Windows:**
++ #### **Windows 10/11:**
   + `Требуется 64 битная система`
   + `Установить Python, при установке выбрать` **`add python to PATH`**
   + `Python recommended 3.10.6:` [**`Download`**](https://www.python.org/)
