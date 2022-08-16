@@ -1,6 +1,6 @@
 # 💣HZF-ORION-Bomber💣
 
-[![geonode](https://img.shields.io/badge/Telegram-blue?style=for-the-badge&logo=Telegram)](https://t.me/hzfnews) [![geonode](https://icon-library.com/images/discord-icon-png/discord-icon-png-0.jpg, width=14 height=14)](https://discord.com/invite/7bneGfUS5h)
+<a href="https://t.me/hzfnews"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png" width=14 height=14 /> Telegram Channel</a> <a href="https://discord.com/invite/7bneGfUS5h"><img src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-logodownload-download-logotipos-1.png" width=14 height=14 /> Discord</a> 
 
 # 💻Меню
 ![Alt-текст](https://user-images.githubusercontent.com/64781822/184903301-c6f1cdf7-4060-41d6-9997-80a2c6c6b8ff.png)
