@@ -212,4 +212,4 @@ class Send:
                 else:
                     return r.status_code, r.text
         except:
-            return False, False # https://t.me/orion_bomber
+            return False, False
