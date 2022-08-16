@@ -76,9 +76,9 @@ def banner():
 	               Sms bomber                            
 	""", "red")
 
-	info = " "*13+colored("[", "blue")+"Developers :"+colored("HZF", "green")
-	info_2 = " "*13+colored("[", "blue")+"Version    :"+colored(ver, "red")
-	info_3 = " "*13+colored("[", "blue")+"Telegram   :"+colored("@hzfnews", "cyan")+colored("   <--", "green")+"\n"
+	info = " "*13+colored("[", "blue")+"Developers      :"+colored("HZF", "green")
+	info_2 = " "*13+colored("[", "blue")+"Version         :"+colored(ver, "red")
+	info_3 = " "*13+colored("[", "blue")+"Telegram Channel:"+colored("@hzfnews", "cyan")+colored("   <--", "green")+"\n"
 
 	print(banner)
 	print(info)
