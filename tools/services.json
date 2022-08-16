@@ -152,12 +152,6 @@
         "timeout": 60,
         "cookies": "https://beerlogapizza.ru/login/"
       },
-      "pizzamia":{
-        "url": "https://1603.smartomato.ru/account/session",
-        "data": "{'g-recaptcha-response': 'null','phone': '*phone3*'}",
-        "response": 200,
-        "timeout": 60
-      },
       "dodopizza":{
         "url": "https://dodopizza.ru/api/sendconfirmationcode",
         "data": "{'phoneNumber': '*+phone*'}",
@@ -168,28 +162,67 @@
         "url": "https://fe.dominospizza.ru/api/authentication/customer?phoneNumber=*phone3*",
         "response": 200,
         "timeout": 60
-       },
-       "av.by": {
-         "url": "https://api.av.by/auth/phone/sign-up",
-         "json": "{\"name\":\"Олег\",\"password\":\"HifbWy523i46oO\",\"phone\":{\"country\":1,\"number\":\"*-phone*\"},\"userEula\":{\"accepted\":true}}",
-         "response": 204,
-         "timeout": 60,
-         "cookies": "https://av.by"
-       },
-       "carte": {
-         "url": "https://carte.by/auth/",
-         "data": "{'ajax': 'register', 'login': 'Olegkiller229', 'pass': 'CbivnE5316', 'phone': '*+phone*', 'code': '', 'company': 0, 'resend': 1, 'checksum': 675}",
-         "response": 200,
-         "timeout": 30,
-         "cookies": "https://carte.by/"
-       },
-       "delivio": {
-         "url": "https://delivio.by/be/api/register",
-         "json": "{'phone': '*+phone*'}",
-         "response": 201,
-         "timeout": 60,
-         "cookies": "https://delivio.by/"
-        }
+      },
+      "pizzamia":{
+        "url": "https://1603.smartomato.ru/account/session",
+        "data": "{'g-recaptcha-response': 'null','phone': '*phone3*'}",
+        "response": 200,
+        "timeout": 60
       }
-    ]
-  }
+    }
+  ],
+  "by":
+  [
+    {
+     "telegram": {
+       "url": "https://my.telegram.org/auth/send_password",
+       "data": "{'phone': '*+phone*'}",
+       "response": 200,
+       "timeout": 120
+      },
+     "green": {
+       "url": "https://www.green-market.by/registration_send_sms_code",
+       "data": "{'phone': '*green*'}",
+       "headers": {"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "Accept-Encoding": "gzip, deflate, br", "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7", "Cache-Control": "no-cache", "Connection": "keep-alive", "User-Agent": "", "X-CSRF-TOKEN": "", "X-Requested-With": "XMLHttpRequest"},
+       "response": 200,
+       "timeout": 60,
+       "cookies": "https://www.green-market.by/"
+     },
+      "ok.ru": {
+        "url": "https://ok.ru/dk?cmd=AnonymRegistrationEnterPhone&st.cmd=anonymRegistrationEnterPhone&st.cmd=anonymRegistrationEnterPhone",
+        "data": "{'st.r.phone': '*+phone*'}",
+        "response": 200,
+        "timeout": 60,
+        "cookies": "https://ok.ru/"
+      },
+      "sosedi": {
+        "url": "https://sosedi.by/local/api/smsSend.php",
+        "json": "{'phone':'*sosedi*'}",
+        "response": 200,
+        "timeout": 60,
+        "cookies": "https://sosedi.by/"
+      },
+      "av.by": {
+        "url": "https://api.av.by/auth/phone/sign-up",
+        "json": "{\"name\":\"Олег\",\"password\":\"HifbWy523i46oO\",\"phone\":{\"country\":1,\"number\":\"*-phone*\"},\"userEula\":{\"accepted\":true}}",
+        "response": 204,
+        "timeout": 60,
+        "cookies": "https://av.by"
+      },
+      "carte": {
+        "url": "https://carte.by/auth/",
+        "data": "{'ajax': 'register', 'login': 'Olegkiller229', 'pass': 'CbivnE5316', 'phone': '*+phone*', 'code': '', 'company': 0, 'resend': 1, 'checksum': 675}",
+        "response": 200,
+        "timeout": 30,
+        "cookies": "https://carte.by/"
+      },
+      "delivio": {
+        "url": "https://delivio.by/be/api/register",
+        "json": "{'phone': '*+phone*'}",
+        "response": 201,
+        "timeout": 60,
+        "cookies": "https://delivio.by/"
+      }
+    }
+  ]
+}

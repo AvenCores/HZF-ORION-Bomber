@@ -34,6 +34,8 @@ while True:
 		tools.donate()
 	elif tool == "6":
 		tools.github()
+	elif tool == "7":
+		tool.originalgithub()
 	elif tool.lower() == "clear logs":
 		tools.clear_logs()
 	else:
