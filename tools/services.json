@@ -140,7 +140,13 @@
       },
       "beerlogapizza": {
         "url": "https://beerlogapizza.ru/include/recall_me.php",
-        "data": "{'fio': 'Антон','phone': '*phone*'}",
+        "data": "{'fio': 'Антон','phone': '*+phone*'}",
+        "response": 200,
+        "timeout": 60
+      },
+      "dodopizza":{
+        "url": "https://dodopizza.ru/api/sendconfirmationcode",
+        "data": "{'phoneNumber': '*+phone*'}",
         "response": 200,
         "timeout": 60
       }
