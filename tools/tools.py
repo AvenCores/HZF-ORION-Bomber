@@ -314,7 +314,7 @@ def CFU():
 	if in_d:
 		print(colored("Проверяем обновление...", "green"))
 		time.sleep(0.7)
-		result = r.get("https://github.com/AvenCores/HZF-ORION-Bomber/blob/master/requirements.txt")
+		result = r.get("https://github.com/AvenCores/HZF-ORION-Bomber/blob/master/tools/version.txt")
 		last_ver = result.content.decode("utf-8")
 		a = open("tools/version.txt", "r")
 		current_ver = a.read()
@@ -396,7 +396,7 @@ def check_files():
 	print(colored("Проверка файлов...", "green"))
 	time.sleep(1)
 	files = os.listdir()
-	list_ = ["main.py", "LICENSE", "README.md", "tools"]
+	list_ = ["HZF-ORION-Bomber.py", "LICENSE", "README.md", "tools"]
 	list_2 = ["proxy.py", "sender.py", "services.json", "tools.py", "version.txt", "logs.txt", "error_logs.txt"]
 
 	for f in list_:
