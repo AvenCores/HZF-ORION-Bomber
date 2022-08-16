@@ -301,7 +301,7 @@ def start_input():
 def ICC():
 	try:
 		print(colored("Проверка интернет соединения...", "green"))
-		r.get("https://google.com", timeout=5)
+		r.get("https://example.org", timeout=5)
 		clear()
 	except Exception as es:
 		clear()
@@ -312,7 +312,7 @@ def CFU():
 	in_d = False
 	# Checking the Internet
 	try:
-		r.get("https://google.com", timeout=5)
+		r.get("https://example.org", timeout=5)
 		in_d = True
 	except:
 		clear()
