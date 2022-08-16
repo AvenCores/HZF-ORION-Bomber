@@ -2,7 +2,7 @@
 
 | <a href="https://www.youtube.com/c/HZFYT/"><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" width=14 height=14 /> YouTube Channel</a> | <a href="https://t.me/hzfnews"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png" width=14 height=14 /> Telegram Channel</a> | <a href="https://vk.com/hzforum1"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/VK_Compact_Logo_%282021-present%29.svg" width=14 height=14 /> VK group</a> | <a href="https://discord.com/invite/7bneGfUS5h"><img src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-logodownload-download-logotipos-1.png" width=14 height=14 /> Discord</a> |
 
-(https://user-images.githubusercontent.com/64781822/184989318-c4818956-c9ad-486b-bc74-535b156bfdb9.png)
+![Без имени-1](https://user-images.githubusercontent.com/64781822/184989363-0f13533a-42ff-47d0-b956-abd7b35448e4.png)
 
 # 💻Меню
 ![Alt-текст](https://i.imgur.com/MuEEnbw.png)
