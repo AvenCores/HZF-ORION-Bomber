@@ -335,11 +335,11 @@ def CFU():
 					print(colored("Устанавливаю архив...", "green"))
 					if platform == "linux" or platform == "linux2":
 						os.chdir("/data/data/com.termux/files/home")
-						os.system("rm -rf ORION-Bomber")
+						os.system("rm -rf HZF-ORION-Bomber")
 						
 						result = r.get("https://github.com/AvenCores/HZF-ORION-Bomber/archive/refs/heads/master.zip")
 						
-						a = open("ORION-Bomber.zip", "wb")
+						a = open("HZF-ORION-Bomber.zip", "wb")
 						a.write(result.content)
 						a.close()
 						
