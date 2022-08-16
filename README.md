@@ -32,7 +32,7 @@ ___
   + `pip install --upgrade pip`
   + `git clone https://github.com/AvenCores/HZF-ORION-Bomber`
   + `cd HZF-ORION-Bomber`
-  + `pip install -r requirements.txt`
+  + `python Install.py`
   + `python HZF-ORION-Bomber.py`
 
 + #### **Windows:**
@@ -42,8 +42,7 @@ ___
   + `Скачать архив и распаковать:` [**`HZF-ORION-Bomber.zip`**](https://github.com/AvenCores/HZF-ORION-Bomber/archive/refs/heads/master.zip)
   + `Открыть` **`cmd`** `или` **`powershell`**
   + `Перейти в директорию с файлами бомбера`
-  + `pip install --upgrade pip`
-  + `pip install -r requirements.txt`
+  + `python Install.py`
   + **`python HZF-ORION-Bomber.py`**
 
 #
