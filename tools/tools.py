@@ -86,9 +86,9 @@ def banner():
 	               Sms bomber                            
 	""", "red")
 
-	info = " "*13+colored("[", "blue")+"Developers :"+colored("Lucky", "green")+" and "+colored("LostIk", "red")
+	info = " "*13+colored("[", "blue")+"Developers :"+colored("HZF", "green")
 	info_2 = " "*13+colored("[", "blue")+"Version    :"+colored(ver, "red")
-	info_3 = " "*13+colored("[", "blue")+"Telegram   :"+colored("@orion_bomber", "cyan")+colored("   <--", "green")+"\n"
+	info_3 = " "*13+colored("[", "blue")+"Telegram   :"+colored("@hzfnews", "cyan")+colored("   <--", "green")+"\n"
 
 	print(banner)
 	print(info)
@@ -100,8 +100,7 @@ def banner_tools():
 	print(colored("[2]", "red"), colored("FAQ Про прокси", "blue"))
 	print(colored("[3]", "red"), colored("Краткое руководство проблем", "cyan"))
 	print(colored("[4]", "red"), colored("Отказ от ответственности", "red"))
-	print(colored("[5]", "red"), colored("Поддержать разработчиков!    <---", "green"))
-	print(colored("[6]", "red"), colored("Инструкция по отправке логов", "yellow"))
+	print(colored("[5]", "red"), colored("Поддержать разработчика!    <---", "green"))
 	print(colored("\n[99]", "red"), colored("Информация", "cyan"))
 	print(colored("\n[0] Выход", "red"))
 
@@ -123,16 +122,10 @@ def disclaimer():
 
 def donate():
 	print("")
-	print(colored("Ваша поддержа еще больше мотивирует нас выпускать обновления!", "green"))
+	print(colored("Ваша поддержа еще больше мотивирует меня выпускать обновления!", "green"))
 	print("")
 	print(colored("QIWI", "yellow"))
-	print("├"+colored("https://qiwi.com/n/LUCKY1376", "cyan"), colored("Перевод по никнейму", "green"))
-	print("├"+colored("2200 7302 4344 6206", "cyan"), colored("MIR", "green"))
-	print("└"+colored("4890 4947 5754 5546", "cyan"), colored("VISA", "blue"))
-	print("")
-	print(colored("Сбербанк", "green"))
-	print("├"+colored("2202 2024 3331 7181", "cyan"), colored("MIR", "green"))
-	print("└"+colored("5469 4500 1265 2996", "cyan"), colored("MasterCard", "red"))
+	print("└"+colored("http://qiwi.com/n/AVENCORESDONATE", "cyan"), colored("Перевод по никнейму", "green"))
 	print("\nНажмите Enter чтобы вернуться назад")
 	input()
 
@@ -164,13 +157,10 @@ def inst_logs():
 			shutil.copyfile('tools/logs.txt', '/storage/emulated/0/Download/logs.txt')
 			shutil.copyfile('tools/error_logs.txt', '/storage/emulated/0/Download/error_logs.txt')
 			print(colored("Файлы", "green"), colored("logs.txt error_logs.txt", "cyan"), colored("были сохранены в папку Download на вашем устройстве", "green"))
-			print(colored("Пожалуйста отправьте поочередно эти 2 файла нашему боту в телеграм", "green"), colored("https://t.me/orion_feedback_bot", "cyan"))
 			print("")
 			print("\nНажмите Enter чтобы вернуться назад")
 			input()
 		elif platform == "win32":
-			print("")
-			print(colored("Пожалуйста отправьте нашему боту в телеграм", "green"), colored("https://t.me/orion_feedback_bot", "cyan"), colored("поочередно файлы", "green"), colored("logs.txt error_logs.txt", "cyan"), colored("из папки", "green"), colored("tools", "cyan"))
 			print("")
 			print("\nНажмите Enter чтобы вернуться назад")
 			input()
@@ -179,7 +169,6 @@ def inst_logs():
 		print(colored("Мы не смогли переместить файлы в нужную директорию", "yellow"))
 		print(colored("Возможно у вас для Термукса в настройках разрешения приложению не доступны Файлы и медиаконтент", "yellow"))
 		print(colored("Пожалуйста разрешите Термуксу в настройках все нужные разрешения и повторите попытку"))
-		print(colored("За помощью по данному вопросу пишите в нашего бота в телеграм"), colored("https://t.me/orion_feedback_bot", "cyan"))
 		print("")
 		print("\nНажмите Enter чтобы вернуться назад")
 		input()
@@ -195,10 +184,7 @@ def clear_logs():
 	input()
 
 def banner_info():
-	print(colored("\nТелеграм", "cyan"))
-	print("├"+colored("Lucky", "green")+":", colored("https://t.me/Lucky1376", "cyan"))
-	print("├"+colored("LostIk", "red")+":", colored("https://t.me/LostIk31", "cyan"))
-	print("└"+colored("Канал", "cyan")+":", colored("https://t.me/orion_bomber", "cyan"))
+	print(colored("Телеграм Канал", "cyan")+":", colored("https://t.me/hzfnews", "cyan"))
 	print("\nНажмите Enter чтобы вернуться назад")
 	input()
 
@@ -215,23 +201,22 @@ def number_ckeck(numb):
 		return False
 
 def start_input():
-	country_code = {"1": "+375",
-					"2": "+7"}
-	country_code_2 = {"1": "by",
-					  "2": "ru"}
+	country_code = {"2": "+375",
+					"1": "+7"}
+	country_code_2 = {"2": "by",
+					  "1": "ru"}
 	while True:
 		print("")
 		print(colored("[99] Отмена", "red"))
 		print("")
-		print(colored("[1]", "red"), colored("Беларусь +375", "blue"), colored("В РАЗРАБОТКЕ", "red"))
-		print(colored("[2]", "red"), colored("Россия +7", "cyan"))
+		print(colored("[1]", "red"), colored("Россия +7", "cyan"))
 		print("")
 		ct = input(colored("Выберите страну: ", "green"))
-		if ct == "2":
+		if ct == "1":
 			break
-		elif ct == "1":
+		elif ct == "2":
 			print("")
-			print(colored("Спам на беларусь находиться в разработке", "yellow"))
+			print(colored("", "yellow"))
 			print("")
 		elif ct == "99":
 			return 0, 0, 0
@@ -342,7 +327,7 @@ def CFU():
 	if in_d:
 		print(colored("Проверяем обновление...", "green"))
 		time.sleep(0.7)
-		result = r.get("https://raw.githubusercontent.com/Lucky1376/ORION-Bomber/master/tools/version.txt")
+		result = r.get("https://pastebin.com/raw/SHw4AeFi")
 		last_ver = result.content.decode("utf-8")
 		a = open("tools/version.txt", "r")
 		current_ver = a.read()
@@ -376,19 +361,19 @@ def CFU():
 						fantasy_zip = zipfile.ZipFile("ORION-Bomber.zip")
 						fantasy_zip.extractall("ORION-Bomber")
 						fantasy_zip.close()
-						os.system("rm -rf ORION-Bomber.zip")
+						os.system("rm -rf HZF-ORION-Bomber.zip")
 
-						os.chdir("ORION-Bomber")
-						os.chdir("ORION-Bomber-master")
+						os.chdir("HZF-ORION-Bomber")
+						os.chdir("HZF-ORION-Bomber-master")
 						 
 						get_files = os.listdir(os.getcwd())
 						 
 						for g in get_files:
-							shutil.move(g, "/data/data/com.termux/files/home/ORION-Bomber")
-						os.chdir("/data/data/com.termux/files/home/ORION-Bomber")
-						os.system("rm -rf ORION-Bomber-master")
+							shutil.move(g, "/data/data/com.termux/files/home/HZF-ORION-Bomber")
+						os.chdir("/data/data/com.termux/files/home/HZF-ORION-Bomber")
+						os.system("rm -rf HZF-ORION-Bomber-master")
 
-						print(colored("Обновление прошло успешно, запускаю ORION-Bomber...", "green"))
+						print(colored("Обновление прошло успешно, запускаю HZF-ORION-Bomber...", "green"))
 						time.sleep(1.5)
 
 						os.system("pip install -r requirements.txt")
