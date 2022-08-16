@@ -26,7 +26,7 @@ ___
 ___
 # 🌐Установка
 + #### **Termux:**
-  + `Установить` [**`Termux`**](https://trashbox.ru/files20/1578709_f6a9e6/com.termux_118.apk)
+  + `Установить` [**`Termux`**](https://f-droid.org/en/packages/com.termux/)
   + `pkg upgrade -y`
   + `pkg update -y`
   + `pkg install git`
