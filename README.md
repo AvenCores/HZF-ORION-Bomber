@@ -29,7 +29,7 @@ ___
   + `git clone https://github.com/AvenCores/HZF-ORION-Bomber`
   + `cd HZF-ORION-Bomber`
   + `pip install -r requirements.txt`
-  + `python main.py`
+  + `python HZF-ORION-Bomber.py`
 
 + #### **Windows:**
   + `Требуется 64 битная система`
