@@ -3,11 +3,10 @@ from tools import proxy
 from termcolor import colored
 import requests
 
-# Why are you reading this?
-
 tools.clear()
 tools.ICC()
 tools.clear()
+tools.check_files()
 tools.CFU()
 
 while True:
