@@ -93,7 +93,7 @@ def banner_tools():
 	print(colored("[2]", "red"), colored("FAQ Про прокси", "blue"))
 	print(colored("[3]", "red"), colored("Краткое руководство проблем", "cyan"))
 	print(colored("[4]", "red"), colored("Отказ от ответственности", "red"))
-	print(colored("[5]", "red"), colored("Поддержать разработчика!    <---", "green"))
+	print(colored("[5]", "red"), colored("Поддержать разработчика", "green"))
 	print(colored("[6]", "red"), colored("Перейти в репозиторий GitHub", "magenta"))
 	print(colored("\n[99]", "red"), colored("Информация", "cyan"))
 	print(colored("\n[0] Выход", "red"))
