@@ -32,7 +32,6 @@ ___
   + `pkg update -y`
   + `pkg install git`
   + `pkg install python -y`
-  + `pip install --upgrade pip`
   + `git clone https://github.com/AvenCores/HZF-ORION-Bomber`
   + `cd HZF-ORION-Bomber`
   + `python Install.py`
