@@ -15,7 +15,8 @@ ___
 # ⬇️Нужна помощь? Пиши нам!⬇️
 ## [**`Телеграм канал`**](https://t.me/hzfnews) `или` [**`FeedBack chat`**](https://t.me/+MDOUaUZzWlEwNjRi)
 
-# ⬇️❗Видео по установке и использовани❗⬇️
+___
+# ⬇️Видео по установке и использовани⬇️
 ## [**`YouTube Video`**](https://www.youtube.com/watch?v=0BY_QHnLCGE)
 
 ___
