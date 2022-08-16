@@ -149,6 +149,11 @@
         "data": "{'phoneNumber': '*+phone*'}",
         "response": 200,
         "timeout": 60
+      },
+      "dominopizza":{
+        "url": "https://fe.dominospizza.ru/api/authentication/customer?phoneNumber=*phone3*",
+        "response": 200,
+        "timeout": 60
       }
     }
   ]
