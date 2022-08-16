@@ -1,7 +1,7 @@
 # 💣HZF-ORION-Bomber💣
 
 # 💻Меню
-![Alt-текст](https://user-images.githubusercontent.com/64781822/184895347-d5c66170-b503-45d8-b3fe-784f3b174fba.png)
+![Alt-текст](https://user-images.githubusercontent.com/64781822/184896891-389b0adb-c5eb-4722-abad-2e8a0d970f54.png)
 
 ___
 # ❤️️**Без них не обошлись**
