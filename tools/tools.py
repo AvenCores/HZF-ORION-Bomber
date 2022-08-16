@@ -327,7 +327,7 @@ def CFU():
 	if in_d:
 		print(colored("Проверяем обновление...", "green"))
 		time.sleep(0.7)
-		result = r.get("https://pastebin.com/raw/SHw4AeFi")
+		result = r.get("https://github.com/AvenCores/HZF-ORION-Bomber/blob/master/requirements.txt")
 		last_ver = result.content.decode("utf-8")
 		a = open("tools/version.txt", "r")
 		current_ver = a.read()
