@@ -145,10 +145,15 @@ def faq_proxy():
 	input()
 
 def github():
-	webbrowser.open("https://github.com/AvenCores/HZF-ORION-Bomber")
-	print(colored("Официальная страница проекта была успешно открыта!", "green"))
-	print("\nНажмите Enter чтобы вернуться назад")
-	input()
+	opengit = webbrowser.open("https://github.com/AvenCores/HZF-ORION-Bomber")
+	if opengit:
+		print(colored("Официальная страница проекта была успешно открыта!", "green"))
+		print("\nНажмите Enter чтобы вернуться назад")
+		input()
+	else:
+		print(colored("Официальная страница проекта не была успешно открыта, т.к не получилось открыть бразуер!", "red"))
+		print("\nНажмите Enter чтобы вернуться назад")
+		input()
 
 def inst_logs():
 	# Checking File System Access
