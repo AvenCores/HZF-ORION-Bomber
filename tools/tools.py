@@ -114,6 +114,7 @@ def banner_tools():
 	print(colored("\n[0] Выход", "red"))
 
 def quick_guide():
+	clear()
 	print("")
 	print(colored("В нашем бомбере спам может постепенно ухудшаться из-за того что на один и тот же номер поступает очень много запросов на отправку смс.", "green"))
 	print(colored("Не пытайтесь оставить спам на всю ночь на один и тот же номер, вы просто заставите сервисы заблокировать данный номер у себя в базе и никакие прокси тут уже не помогут.", "green"))
@@ -123,6 +124,7 @@ def quick_guide():
 	input()
 
 def disclaimer():
+	clear()
 	print("")
 	print(colored("Разработчики команды ORION не несут ответственность за доставленный моральный или физический ущерб вашей жертве.", "green"))
 	print(colored("Пользуясь данной программой вы автоматически соглашаетесь на это и берете всю ответственность на себя", "green"))
@@ -130,6 +132,7 @@ def disclaimer():
 	input()
 
 def donate():
+	clear()
 	print("")
 	print(colored("Ваша поддержа еще больше мотивирует меня выпускать обновления!", "green"))
 	print("")
@@ -139,6 +142,7 @@ def donate():
 	input()
 
 def faq_proxy():
+	clear()
 	print("")
 	print(colored("Почему с прокси такой медленный спам и такая частая проверка?", "cyan"))
 	print(colored("Наш парсер берет прокси с общедоступных сервисов, конечно не только мы так делаем и соотвественно не только мы пользуемся этими прокси.", "green"))
@@ -162,10 +166,12 @@ def faq_proxy():
 def github():
 	opengit = webbrowser.open("https://github.com/AvenCores/HZF-ORION-Bomber")
 	if opengit:
+		clear()
 		print(colored("Форк страница проекта была успешно открыта!", "green"))
 		print("\nНажмите Enter чтобы вернуться назад")
 		input()
 	else:
+		clear()
 		print(colored("Форк страница проекта не была успешно открыта, т.к не получилось открыть бразуер!", "red"))
 		print("\nНажмите Enter чтобы вернуться назад")
 		input()
@@ -173,10 +179,12 @@ def github():
 def originalgithub():
 	opengit = webbrowser.open("https://github.com/Lucky1376/ORION-Bomber")
 	if opengit:
+		clear()
 		print(colored("Официальная страница проекта была успешно открыта!", "green"))
 		print("\nНажмите Enter чтобы вернуться назад")
 		input()
 	else:
+		clear()
 		print(colored("Официальная страница проекта не была успешно открыта, т.к не получилось открыть бразуер!", "red"))
 		print("\nНажмите Enter чтобы вернуться назад")
 		input()
@@ -187,18 +195,21 @@ def inst_logs():
 		if platform == "linux" or platform == "linux2":
 			shutil.copyfile('tools/logs.txt', '/storage/emulated/0/Download/logs.txt')
 			shutil.copyfile('tools/error_logs.txt', '/storage/emulated/0/Download/error_logs.txt')
+			clear()
 			print(colored("Файлы", "green"), colored("logs.txt error_logs.txt", "cyan"), colored("были сохранены в папку Download на вашем устройстве", "green"))
 			print(colored("Пожалуйста отправьте поочередно эти 2 файла в наш телеграм чат", "green"), colored("https://t.me/+MDOUaUZzWlEwNjRi", "cyan"))
 			print("")
 			print("\nНажмите Enter чтобы вернуться назад")
 			input()
 		elif platform == "win32":
+			clear()
 			print("")
 			print(colored("Пожалуйста отправьте в наш телеграм чат", "green"), colored("https://t.me/+MDOUaUZzWlEwNjRi", "cyan"), colored("поочередно файлы", "green"), colored("logs.txt error_logs.txt", "cyan"), colored("из папки", "green"), colored("tools", "cyan"))
 			print("")
 			print("\nНажмите Enter чтобы вернуться назад")
 			input()
 	except:
+		clear()
 		print("")
 		print(colored("Мы не смогли переместить файлы в нужную директорию", "yellow"))
 		print(colored("Возможно у вас для Термукса в настройках разрешения приложению не доступны Файлы и медиаконтент", "yellow"))
@@ -213,12 +224,14 @@ def clear_logs():
 	a.close()
 	a = open("tools/error_logs.txt", "w")
 	a.close()
+	clear()
 	print("")
 	print(colored("Логи успешно были очищены", "green"))
 	print("\nНажмите Enter чтобы вернуться назад")
 	input()
 
 def banner_info():
+	clear()
 	print(colored("Телеграм Канал", "cyan")+":", colored("https://t.me/hzfnews", "cyan"))
 	print("\nНажмите Enter чтобы вернуться назад")
 	input()
@@ -241,6 +254,7 @@ def start_input():
 	country_code_2 = {"1": "by",
 					  "2": "ru"}
 	while True:
+		clear()
 		print("")
 		print(colored("[99] Отмена", "red"))
 		print("")
@@ -255,6 +269,7 @@ def start_input():
 		elif ct == "99":
 			return 0, 0, 0
 	while True:
+		clear()
 		print("")
 		print(colored("[99] Отмена", "red"))
 		print("")
@@ -264,6 +279,7 @@ def start_input():
 		elif numb == "99":
 			return 0, 0, 0
 	while True:
+		clear()
 		print("")
 		print(colored("[99] Отмена", "red"))
 		print("")
@@ -281,6 +297,7 @@ def start_input():
 			return 0, 0, 0
 	if pr != None:
 		while True:
+			clear()
 			print("")
 			print(colored("[99] Отмена", "red"))
 			print("")
@@ -293,6 +310,7 @@ def start_input():
 			who_pr = input("Вариант: ")
 			if who_pr in ["1", "2"]:
 				if who_pr == "2":
+					clear()
 					print("")
 					print(colored("[99] Отмена", "red"))
 					print("")
@@ -443,7 +461,7 @@ def check_files():
 	print(colored("Проверка файлов...", "green"))
 	time.sleep(1)
 	files = os.listdir()
-	list_ = ["HZF-ORION-Bomber.py", "LICENSE", "README.md", "tools"]
+	list_ = ["HZF-ORION-Bomber.py", "LICENSE", "README.md", "tools","Install.py"]
 	list_2 = ["proxy.py", "sender.py", "services.json", "tools.py", "version.txt", "logs.txt", "error_logs.txt"]
 
 	for f in list_:
@@ -571,7 +589,7 @@ def start(number, country, proxy_=None):
 		proxy_ = proxy_
 
 
-
+	clear()
 	print("")
 	print(colored("Остановка спама", "yellow"))
 	print("├"+colored("Termux", "magenta")+":", colored("На встроенной клавиатуре от Termux выбрать CTRL затем C", "cyan"))
