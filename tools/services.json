@@ -168,6 +168,12 @@
         "data": "{'g-recaptcha-response': 'null','phone': '*phone3*'}",
         "response": 200,
         "timeout": 60
+      },
+      "lentaru": {
+        "url": "https://online.lenta.com/api.php",
+        "data": "{'tel:' '*phone()*', 'accept:' 'on', 'urlParams:' ''}",
+        "response": 200,
+        "timeout": 60
       }
     }
   ],
