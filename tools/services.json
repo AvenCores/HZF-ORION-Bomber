@@ -222,6 +222,18 @@
         "response": 201,
         "timeout": 60,
         "cookies": "https://delivio.by/"
+      },
+      "dodopizzaby": {
+        "url": "https://dodopizza.by/api/sendconfirmationcode",
+        "data": "{'phoneNumber': '*+phone*'}",
+        "response": 200,
+        "timeout": 60
+      },
+      "expresspizzaby": {
+        "url": "https://express-pizza.by/checkout.php?call=1",
+        "data": "{'tel': '*+phone*'}",
+        "response": 200,
+        "timeout": 60
       }
     }
   ]
