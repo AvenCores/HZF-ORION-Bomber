@@ -234,6 +234,12 @@
         "data": "{'tel': '*+phone*'}",
         "response": 200,
         "timeout": 60
+      },
+      "tokinyby": {
+        "url": "https://tokiny.by/?ajax=1&task=sendVerificationCode",
+        "data": "{'tel:' '*+phone*'}",
+        "response": 200,
+        "timeout": 60
       }
     }
   ]
