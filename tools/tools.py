@@ -62,13 +62,12 @@ def FormattingNumber(number, country):
 		return numb_1, numb_2, numb_3, numb_4, numb_5, numb_6, numb_7, numb_8
 
 def clear():
-	if platform == "linux" or platform == "linux2":
+	if platform == "linux" or platform == "linux2" or platform == "unix":
 		os.system("clear")
 	elif platform == "win32":
 		os.system("cls")
 	else:
-		print(colored("\nИзвините наша программа не поддерживает вашу операционную систему ;(\n", "red"))
-		exit()
+		os.system("clear")
 
 def banner():
 	a = open("tools/version.txt", "r")
@@ -398,7 +397,7 @@ def CFU():
 				if how == "1":
 					clear()
 					print(colored("Устанавливаю архив...", "green"))
-					if platform == "linux" or platform == "linux2":
+					if platform == "linux" or platform == "linux2" or platform == "unix":
 						os.chdir("/data/data/com.termux/files/home")
 						os.system("rm -rf HZF-ORION-Bomber")
 						
