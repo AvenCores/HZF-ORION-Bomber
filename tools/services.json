@@ -179,7 +179,22 @@
       },
       "burgerking": {
         "url": "https://burgerkingrus.ru/api-web-front/api/v3/auth/signup",
-        "data": "{'phone:' '*phone*', 'invite:' ''}"
+        "data": "{'phone:' '*phone*', 'invite:' ''}",
+        "response": 200,
+        "timeout": 60
+      },
+      "elementareeru": {
+        "url": "https://api-new.elementaree.ru/graphql",
+        "data": "{'operationName:' 'phoneVerification', 'query:' 'mutation phoneVerification($phone: String!) {\n  phoneVerification(phone: $phone) {\n    success\n    interval\n    __typename\n  }\n}\n', 'phone:' '*phone*'}",
+        "response": 200,
+        "timeout": 60
+      },
+      "almazholdingru": {
+        "url": "https://almazholding.ru/local/user1/sendcode.php",
+        "data": "{'PHONE:' '*phone*', 'ECAPTCHA:' 'undefined'}",
+        "response": 200,
+        "timeout": 60,
+        "cookies": "https://almazholding.ru/personal/register/"
       }
     }
   ],
