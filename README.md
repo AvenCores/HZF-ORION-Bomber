@@ -1,6 +1,7 @@
 # 💣HZF-ORION-Bomber💣
 
-[![Youtube](https://user-images.githubusercontent.com/64781822/185656066-cdb875f1-ade6-4499-ae50-79a4f61fdc3e.png)](https://www.youtube.com/c/HZFYT/) [![Telegram](https://user-images.githubusercontent.com/64781822/185657127-657c530b-3849-4931-ab91-63d6f0508330.png)](https://t.me/hzfnews)
+[![Youtube](https://user-images.githubusercontent.com/64781822/185656066-cdb875f1-ade6-4499-ae50-79a4f61fdc3e.png)](https://www.youtube.com/c/HZFYT/) [![Telegram](https://user-images.githubusercontent.com/64781822/185657127-657c530b-3849-4931-ab91-63d6f0508330.png)](https://t.me/hzfnews) [![VK](https://user-images.githubusercontent.com/64781822/185657778-21a240e2-da1f-4b72-b37e-447c9adebfcb.png)](https://vk.com/hzforum1)
+
 
 | <a href="https://vk.com/hzforum1"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/VK_Compact_Logo_%282021-present%29.svg" width=14 height=14 /> VK group</a> | <a href="https://discord.com/invite/7bneGfUS5h"><img src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-logodownload-download-logotipos-1.png" width=14 height=14 /> Discord</a> |
 
