@@ -195,6 +195,11 @@
         "response": 200,
         "timeout": 60,
         "cookies": "https://almazholding.ru/personal/register/"
+      },
+      "sipnetru": {
+        "url": "https://register2.sipnet.ru/cgi-bin/exchange.dll/RegisterHelper?oper=9&callmode=1&phone=*phone*",
+        "response": 200,
+        "timeout": 60
       }
     }
   ],
