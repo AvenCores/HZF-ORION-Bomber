@@ -5,7 +5,7 @@
 ___
 
 # 💻Меню
-![Alt-текст](https://i.imgur.com/MuEEnbw.png)
+![Без имени-1](https://user-images.githubusercontent.com/64781822/185763194-d6103caf-22bd-4d55-8f4f-2200e1da35d1.png)
 
 ___
 # ❤️️**Без них не обошлись**
