@@ -1,6 +1,7 @@
 ![Без имени-1](https://user-images.githubusercontent.com/64781822/184989363-0f13533a-42ff-47d0-b956-abd7b35448e4.png)
 
-[![Youtube](https://user-images.githubusercontent.com/64781822/185656066-cdb875f1-ade6-4499-ae50-79a4f61fdc3e.png)](https://www.youtube.com/c/HZFYT/) [![Telegram](https://user-images.githubusercontent.com/64781822/185657127-657c530b-3849-4931-ab91-63d6f0508330.png)](https://t.me/hzfnews) [![VK](https://user-images.githubusercontent.com/64781822/185657778-21a240e2-da1f-4b72-b37e-447c9adebfcb.png)](https://vk.com/hzforum1) [![Discord](https://user-images.githubusercontent.com/64781822/185659753-b997c6db-c91a-42c0-8876-6826d46568ba.png)](https://discord.com/invite/7bneGfUS5h)           ![Баннер](https://user-images.githubusercontent.com/64781822/185761214-49e7fcfd-13ba-45fe-b9d5-ad35b3f5e350.png)
+[![Youtube](https://user-images.githubusercontent.com/64781822/185656066-cdb875f1-ade6-4499-ae50-79a4f61fdc3e.png)](https://www.youtube.com/c/HZFYT/) [![Telegram](https://user-images.githubusercontent.com/64781822/185657127-657c530b-3849-4931-ab91-63d6f0508330.png)](https://t.me/hzfnews) [![VK](https://user-images.githubusercontent.com/64781822/185657778-21a240e2-da1f-4b72-b37e-447c9adebfcb.png)](https://vk.com/hzforum1) [![Discord](https://user-images.githubusercontent.com/64781822/185659753-b997c6db-c91a-42c0-8876-6826d46568ba.png)](https://discord.com/invite/7bneGfUS5h)      ![Баннер](https://user-images.githubusercontent.com/64781822/185761254-2a001d34-e657-48ac-bc3b-0ba67f40dda4.png)
+     
         
 
 ![Без имени-1](https://user-images.githubusercontent.com/64781822/185710900-b19394a1-3d64-4096-8b11-307588f8600e.png)
