@@ -171,30 +171,11 @@
       },
       "lentaru": {
         "url": "https://online.lenta.com/api.php",
-        "data": "{'tel:' '*phone()*', 'accept:' 'on', 'urlParams:' ''}",
+        "data": "{'tel': '*phone()*', 'accept': 'on', 'urlParams': ''}",
         "response": 200,
         "headers": {"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "Accept-Encoding": "gzip, deflate, br", "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7", "Cache-Control": "no-cache", "Connection": "keep-alive", "User-Agent": "", "X-Requested-With": "XMLHttpRequest"},
         "timeout": 60,
         "cookies": "https://online.lenta.com"
-      },
-      "burgerking": {
-        "url": "https://burgerkingrus.ru/api-web-front/api/v3/auth/signup",
-        "data": "{'phone:' '*phone*', 'invite:' ''}",
-        "response": 200,
-        "timeout": 60
-      },
-      "elementareeru": {
-        "url": "https://api-new.elementaree.ru/graphql",
-        "data": "{'operationName:' 'phoneVerification', 'query:' 'mutation phoneVerification($phone: String!) {\n  phoneVerification(phone: $phone) {\n    success\n    interval\n    __typename\n  }\n}\n', 'phone:' '*phone*'}",
-        "response": 200,
-        "timeout": 60
-      },
-      "almazholdingru": {
-        "url": "https://almazholding.ru/local/user1/sendcode.php",
-        "data": "{'PHONE:' '*phone*', 'ECAPTCHA:' 'undefined'}",
-        "response": 200,
-        "timeout": 60,
-        "cookies": "https://almazholding.ru/personal/register/"
       },
       "sipnetru": {
         "url": "https://register2.sipnet.ru/cgi-bin/exchange.dll/RegisterHelper?oper=9&callmode=1&phone=*phone*",
