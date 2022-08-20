@@ -1,11 +1,11 @@
-[![License](https://img.shields.io/github/license/MajickTek/GPL3.0?color=green&label=License)](https://opensource.org/licenses/GPL-3.0)
+![Без имени-1](https://user-images.githubusercontent.com/64781822/185764055-87ac5bc9-6d58-4eff-b4e8-36c3f846a38f.png)
 
-# 💣ORION-Bomber💫
-#
-##### Данный Sms Bomber полностью оригинальный. Создан он был 08.07.2022, все остальные форки и просто копирования репозитория показывают дату создания и можно отличить, поймите что все свежие и хорошие обновления выходят только у нас, не скачивайте не оригинальный продукт не проверив его, так как помимо копирования там могут быть свои функции которые возможно вредят вашему устройству, вы просто можете этого не заметить.
-##### Всю свежую информацию по данному проекту можно найти только в данном телеграм канале
-###### [![geonode](https://img.shields.io/badge/Telegram-blue?style=for-the-badge&logo=Telegram)](https://t.me/orion_bomber)
-#
+[![Telegram](https://user-images.githubusercontent.com/64781822/185657127-657c530b-3849-4931-ab91-63d6f0508330.png)](https://t.me/hzfnews)
+
+___
+![Без имени-1](https://user-images.githubusercontent.com/64781822/185710900-b19394a1-3d64-4096-8b11-307588f8600e.png)
+___
+
 # 💻Меню
 ![Alt-текст](https://i.ibb.co/LPH9tVJ/image.png)
 ___
@@ -19,10 +19,16 @@ ___
 # ⬇️Нужна помощь? Пиши нам!⬇️
 ## [**`Телеграм канал`**](https://t.me/orion_bomber) `или` [**`FeedBack BOT`**](https://t.me/orion_feedback_bot)
 #
+
+___
+# ⬇️Видео по установке и использовани⬇️
+## [**`YouTube Video`**](https://www.youtube.com/watch?v=0BY_QHnLCGE)
+[![image](https://user-images.githubusercontent.com/64781822/184990843-50d1b46d-9c48-40d6-b9b2-a6c48288bce2.png)](https://www.youtube.com/watch?v=0BY_QHnLCGE)
+
 ___
 # 🌐Установка
 + #### **Termux:**
-  + `Установить` [**`Termux`**](https://trashbox.ru/files20/1578709_f6a9e6/com.termux_118.apk)
+  + `Установить` [**`Termux`**](https://f-droid.org/en/packages/com.termux/)
   + `pkg upgrade -y`
   + `pkg update -y`
   + `pkg install git`
@@ -33,10 +39,10 @@ ___
   + `pip install -r requirements.txt`
   + `python main.py`
 
-+ #### **Windows:**
++ #### **Windows 10/11:**
   + `Требуется 64 битная система`
   + `Установить Python, при установке выбрать` **`add python to PATH`**
-  + `Python recommended 3.9.6:` [**`Download`**](https://drive.google.com/file/d/1-rt97BpZwgRUTZSH7sAVZNVq7jOC4gsE/view?usp=sharing)
+  + `Python recommended 3.10.6:` [**`Download`**](https://www.python.org/)
   + `Скачать архив и распаковать:` [**`ORION-Bomber.zip`**](https://github.com/Lucky1376/ORION-Bomber/archive/refs/heads/master.zip)
   + `Открыть` **`cmd`** `или` **`powershell`**
   + `Перейти в директорию с файлами бомбера`
