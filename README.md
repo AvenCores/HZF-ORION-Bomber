@@ -24,7 +24,7 @@ ___
 ___
 # ⬇️Видео по установке и использовани⬇️
 ## [**`YouTube Video`**](https://www.youtube.com/watch?v=0BY_QHnLCGE)
-[![image](https://i.imgur.com/kmZuKkt.png)](https://www.youtube.com/watch?v=0BY_QHnLCGE)
+[![image](https://i.imgur.com/kmZuKkt.png)](https://www.youtube.com/watch?v=fx6bYIAcpOM)
 
 ___
 # 🌐Установка
