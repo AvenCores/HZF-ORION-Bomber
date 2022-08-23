@@ -181,6 +181,12 @@
         "url": "https://register2.sipnet.ru/cgi-bin/exchange.dll/RegisterHelper?oper=9&callmode=1&phone=*phone*",
         "response": 200,
         "timeout": 60
+      },
+      "wildberries": {
+        "url": "https://authorization.wildberries.eu/api/v2/code/request",
+        "json": "{\"contact\": \"*phone*\", \"auth_method\": \"sms\", \"lang\": \"ru\"}",
+        "response": 200,
+        "timeout": 60
       }
     }
   ],
@@ -251,6 +257,12 @@
       "tokinyby": {
         "url": "https://tokiny.by/?ajax=1&task=sendVerificationCode",
         "data": "{'tel:' '*+phone*'}",
+        "response": 200,
+        "timeout": 60
+      },
+      "wildberries": {
+        "url": "https://authorization.wildberries.eu/api/v2/code/request",
+        "json": "{\"contact\": \"*phone*\", \"auth_method\": \"sms\", \"lang\": \"ru\"}",
         "response": 200,
         "timeout": 60
       }
