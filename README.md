@@ -47,7 +47,7 @@ ___
   + `Открыть` **`cmd`** `или` **`powershell`**
   + `Перейти в директорию с файлами бомбера`
   + `python Install.py`
-  + **`python HZF-ORION-Bomber.py`**
+  + `python HZF-ORION-Bomber.py`**
 
 #
 ___
