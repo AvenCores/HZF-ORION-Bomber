@@ -46,7 +46,7 @@ ___
   + `Скачать архив и распаковать:` [**`HZF-ORION-Bomber.zip`**](https://github.com/AvenCores/HZF-ORION-Bomber/archive/refs/heads/master.zip)
   + `Открыть` **`cmd`** `или` **`powershell`**
   + `Перейти в директорию с файлами бомбера`
-  + `python Install.py`
+  + **`python Install.py`**
   + **`python HZF-ORION-Bomber.py`**
 
 #
