@@ -30,14 +30,14 @@ ___
 # 🌐Установка
 + #### **Termux:**
   + `Установить` [**`Termux`**](https://f-droid.org/en/packages/com.termux/)
-  + `pkg upgrade -y`
-  + `pkg update -y`
-  + `pkg install git`
-  + `pkg install python -y`
-  + `git clone https://github.com/AvenCores/HZF-ORION-Bomber`
-  + `cd HZF-ORION-Bomber`
-  + `python Install.py`
-  + `python HZF-ORION-Bomber.py`
+  + **`pkg upgrade -y`**
+  + **`pkg update -y`**
+  + **`pkg install git`**
+  + **`pkg install python -y`**
+  + **`git clone https://github.com/AvenCores/HZF-ORION-Bomber`**
+  + **`cd HZF-ORION-Bomber`**
+  + **`python Install.py`**
+  + **`python HZF-ORION-Bomber.py`**
 
 + #### **Windows 10/11:**
   + `Требуется 64 битная система`
@@ -47,7 +47,7 @@ ___
   + `Открыть` **`cmd`** `или` **`powershell`**
   + `Перейти в директорию с файлами бомбера`
   + `python Install.py`
-  + `python HZF-ORION-Bomber.py`**
+  + **`python HZF-ORION-Bomber.py`**
 
 #
 ___
