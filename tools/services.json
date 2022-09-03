@@ -187,6 +187,12 @@
         "json": "{\"contact\": \"*phone*\", \"auth_method\": \"sms\", \"lang\": \"ru\"}",
         "response": 200,
         "timeout": 60
+      },
+      "bandeatosru": {
+        "url": "https://bandeatos.ru/?MODE=AJAX",
+        "data": "{'sessid': '475674332f23ec4b8c70a1394acd7a6e', 'FORM_ID': 'bx_1789522556_form', 'PHONE_NUMBER': '*phone*'}",
+        "response": 200,
+        "timeout": 60
       }
     }
   ],
