@@ -75,23 +75,23 @@ def banner():
 	a.close()
 
 	banner = colored("""
-
-	 ▒█████   ██▀███   ██▓ ▒█████   ███▄    █ 
-	▒██▒  ██▒▓██ ▒ ██▒▓██▒▒██▒  ██▒ ██ ▀█   █ 
-	▒██░  ██▒▓██ ░▄█ ▒▒██▒▒██░  ██▒▓██  ▀█ ██▒
-	▒██   ██░▒██▀▀█▄  ░██░▒██   ██░▓██▒  ▐▌██▒
-	░ ████▓▒░░██▓ ▒██▒░██░░ ████▓▒░▒██░   ▓██░
-	░ ▒░▒░▒░ ░ ▒▓ ░▒▓░░▓  ░ ▒░▒░▒░ ░ ▒░   ▒ ▒ 
-	  ░ ▒ ▒░   ░▒ ░ ▒░ ▒ ░  ░ ▒ ▒░ ░ ░░   ░ ▒░
-	░ ░ ░ ▒    ░░   ░  ▒ ░░ ░ ░ ▒     ░   ░ ░ 
-	    ░ ░     ░      ░      ░ ░           ░
+ ██░ ██ ▒███████▒  █████▒    ▒█████   ██▀███   ██▓ ▒█████   ███▄    █ 
+▓██░ ██▒▒ ▒ ▒ ▄▀░▓██   ▒    ▒██▒  ██▒▓██ ▒ ██▒▓██▒▒██▒  ██▒ ██ ▀█   █ 
+▒██▀▀██░░ ▒ ▄▀▒░ ▒████ ░    ▒██░  ██▒▓██ ░▄█ ▒▒██▒▒██░  ██▒▓██  ▀█ ██▒
+░▓█ ░██   ▄▀▒   ░░▓█▒  ░    ▒██   ██░▒██▀▀█▄  ░██░▒██   ██░▓██▒  ▐▌██▒
+░▓█▒░██▓▒███████▒░▒█░       ░ ████▓▒░░██▓ ▒██▒░██░░ ████▓▒░▒██░   ▓██░
+ ▒ ░░▒░▒░▒▒ ▓░▒░▒ ▒ ░       ░ ▒░▒░▒░ ░ ▒▓ ░▒▓░░▓  ░ ▒░▒░▒░ ░ ▒░   ▒ ▒ 
+ ▒ ░▒░ ░░░▒ ▒ ░ ▒ ░           ░ ▒ ▒░   ░▒ ░ ▒░ ▒ ░  ░ ▒ ▒░ ░ ░░   ░ ▒░
+ ░  ░░ ░░ ░ ░ ░ ░ ░ ░       ░ ░ ░ ▒    ░░   ░  ▒ ░░ ░ ░ ▒     ░   ░ ░ 
+ ░  ░  ░  ░ ░                   ░ ░     ░      ░      ░ ░           ░ 
+        ░                                                             
 	""", "red")
 
 	bombbanner = colored("	               [", "blue")+colored("sms bomber", "cyan")+colored("]\n", "blue")
 
 	info = " "*13+colored("[", "blue")+"Developers      :"+colored("HZF", "green")
 	info_2 = " "*13+colored("[", "blue")+"Version         :"+colored(ver, "red")
-	info_3 = " "*13+colored("[", "blue")+"Telegram Channel:"+colored("@hzfnews", "cyan")+colored("   <-- Подпишись!", "green")
+	info_3 = " "*13+colored("[", "blue")+"Telegram Channel:"+colored("@hzfnews", "cyan")+colored("              <-- Подпишись!", "green")
 	info_4 = " "*13+colored("[", "blue")+"YouTube Channel :"+colored("youtube.com/c/HZFYT", "cyan")+colored("   <-- Подпишись!", "green")+"\n"
 
 	print(banner)
@@ -393,7 +393,7 @@ def CFU():
 			print(colored("[2]", "red"), colored("Нет", "red"))
 			print("")
 			while True:
-				how = input(colored("~# ", "red"))
+				how = input(colored("HZF ORION BOMBER ##>> ", "red"))
 				if how == "1":
 					clear()
 					print(colored("Устанавливаю архив...", "green"))
