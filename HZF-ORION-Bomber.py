@@ -1,7 +1,5 @@
 from tools import tools
-from tools import proxy
 from termcolor import colored
-import requests
 
 tools.clear()
 tools.ICC()
@@ -14,7 +12,7 @@ while True:
 	tools.banner()
 	tools.banner_tools()
 
-	tool = input(colored("\nHZF ORION BOMBER ##>> ", "red"))
+	tool = input(colored("\nHZF ORION BOMBER (LTS)##>> ", "red"))
 	if tool == "1":
 		numb, ct, pr = tools.start_input()
 		if numb != 0:

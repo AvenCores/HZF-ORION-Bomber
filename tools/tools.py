@@ -2,14 +2,13 @@
 
 # Tools for different processing
 
-import webbrowser
-from termcolor import colored
-from datetime import datetime
-import requests as r, os, time, random, shutil, zipfile
-from sys import platform
-from tools import proxy
+import requests as r, os, time, random, shutil, zipfile,webbrowser
 from progress.bar import ChargingBar
 from tools import sender as send
+from termcolor import colored
+from datetime import datetime
+from sys import platform
+from tools import proxy
 
 def FormattingNumber(number, country):
 	numb = str(number)
@@ -69,6 +68,11 @@ def clear():
 	else:
 		os.system("clear")
 
+def anim_text(text, speed, color="green"):
+	for i in text:
+		print(colored(i, color), end="", flush=True)
+		time.sleep(speed)
+
 def banner():
 	a = open("tools/version.txt", "r")
 	ver = a.read().split("\n")[0]
@@ -80,14 +84,15 @@ def banner():
 ▒██▀▀██░░ ▒ ▄▀▒░ ▒████ ░    ▒██░  ██▒▓██ ░▄█ ▒▒██▒▒██░  ██▒▓██  ▀█ ██▒
 ░▓█ ░██   ▄▀▒   ░░▓█▒  ░    ▒██   ██░▒██▀▀█▄  ░██░▒██   ██░▓██▒  ▐▌██▒
 ░▓█▒░██▓▒███████▒░▒█░       ░ ████▓▒░░██▓ ▒██▒░██░░ ████▓▒░▒██░   ▓██░
- ▒ ░░▒░▒░▒▒ ▓░▒░▒ ▒ ░       ░ ▒░▒░▒░ ░ ▒▓ ░▒▓░░▓  ░ ▒░▒░▒░ ░ ▒░   ▒ ▒ 
+ ▒ ░░▒░▒░▒▒ ▓░▒░▒ ▒ ░       ░ ▒░▒░▒░ ░ ▒▓ ░▒▓░░▓  ░ ▒░▒░▒░ ░ ▒░   ▒ ▒  (LTS)
  ▒ ░▒░ ░░░▒ ▒ ░ ▒ ░           ░ ▒ ▒░   ░▒ ░ ▒░ ▒ ░  ░ ▒ ▒░ ░ ░░   ░ ▒░
  ░  ░░ ░░ ░ ░ ░ ░ ░ ░       ░ ░ ░ ▒    ░░   ░  ▒ ░░ ░ ░ ▒     ░   ░ ░ 
  ░  ░  ░  ░ ░                   ░ ░     ░      ░      ░ ░           ░ 
         ░                                                             
 	""", "red")
 
-	bombbanner = colored("	               [", "blue")+colored("sms bomber", "cyan")+colored("]\n", "blue")
+	bombbanner = colored("	               [", "blue")+colored("sms bomber", "cyan")+colored("]", "blue")
+	fullinfo = colored("                         Сервисы", "green")+"\n"+colored("		Россия ", "blue")+colored("33", "green")+colored("	Беларусь ", "cyan")+colored("12\n", "green")
 
 	info = " "*13+colored("[", "blue")+"Developers      :"+colored("HZF", "green")
 	info_2 = " "*13+colored("[", "blue")+"Version         :"+colored(ver, "red")
@@ -96,6 +101,7 @@ def banner():
 
 	print(banner)
 	print(bombbanner)
+	print(fullinfo)
 	print(info)
 	print(info_2)
 	print(info_3)
@@ -135,6 +141,10 @@ def donate():
 	print("")
 	print(colored("Ваша поддержа еще больше мотивирует меня выпускать обновления!", "green"))
 	print("")
+	print(colored("ВТБ", "yellow"))
+	print("└"+colored("2200 2404 1001 8580", "cyan"), colored("Перевод на карту физ. лицу", "green"))
+	print(colored("СБЕР", "yellow"))
+	print("└"+colored("2202 2050 7215 4401", "cyan"), colored("Перевод на карту физ. лицу", "green"))
 	print(colored("QIWI", "yellow"))
 	print("└"+colored("http://qiwi.com/n/AVENCORESDONATE", "cyan"), colored("Перевод по никнейму", "green"))
 	print("\nНажмите Enter чтобы вернуться назад")
@@ -163,7 +173,7 @@ def faq_proxy():
 	input()
 
 def github():
-	opengit = webbrowser.open("https://github.com/AvenCores/HZF-ORION-Bomber")
+	opengit = open("https://github.com/AvenCores/HZF-ORION-Bomber")
 	if opengit:
 		clear()
 		print(colored("Форк страница проекта была успешно открыта!", "green"))
@@ -176,7 +186,7 @@ def github():
 		input()
 
 def originalgithub():
-	opengit = webbrowser.open("https://github.com/Lucky1376/ORION-Bomber")
+	opengit = open("https://github.com/Lucky1376/ORION-Bomber")
 	if opengit:
 		clear()
 		print(colored("Официальная страница проекта была успешно открыта!", "green"))
@@ -356,7 +366,7 @@ def start_input():
 
 def ICC():
 	try:
-		print(colored("Проверка интернет соединения...", "green"))
+		anim_text("Проверка интернет соединения...", speed=0.030, color="green")
 		r.get("https://example.org", timeout=5)
 		clear()
 	except Exception as es:
@@ -376,8 +386,7 @@ def CFU():
 		exit()
 	clear()
 	if in_d:
-		print(colored("Проверяем обновление...", "green"))
-		time.sleep(0.7)
+		anim_text("Проверяем обновления...", speed=0.050, color="green")
 		result = r.get("https://raw.githubusercontent.com/AvenCores/HZF-ORION-Bomber/master/tools/version.txt")
 		last_ver = result.content.decode("utf-8")
 		a = open("tools/version.txt", "r")
@@ -457,8 +466,7 @@ class Logs:
 		file_error.close()
 
 def check_files():
-	print(colored("Проверка файлов...", "green"))
-	time.sleep(1)
+	anim_text("Проверка файлов...", speed=0.050, color="green")
 	files = os.listdir()
 	list_ = ["HZF-ORION-Bomber.py", "LICENSE", "README.md", "tools","Install.py"]
 	list_2 = ["proxy.py", "sender.py", "services.json", "tools.py", "version.txt", "logs.txt", "error_logs.txt"]
@@ -593,8 +601,9 @@ def start(number, country, proxy_=None):
 	print("")
 	print(colored("Остановка спама", "yellow"))
 	print("├"+colored("Termux", "magenta")+":", colored("На встроенной клавиатуре от Termux выбрать CTRL затем C", "cyan"))
-	print("└"+colored("Windows", "blue")+":", colored("Комбинация клавишь Ctrl+C или Ctrl+Z", "cyan"))
-	an=["10", "9", "8", "7", "6", "5", "4", "3", "2", "1"]
+	print("├"+colored("Windows", "blue")+":", colored("Комбинация клавишь Ctrl+C или Ctrl+Z", "cyan"))
+	print("└"+colored("Linux", "yellow")+":", colored("Комбинация клавишь Ctrl+Z", "cyan"))
+	an=["5", "4", "3", "2", "1"]
 	for i in an:
 		print(colored("Спам начнется через ", "red")+colored(i, "green")+" ",sep=' ',end='\r')
 		time.sleep(1)
@@ -624,7 +633,10 @@ def start(number, country, proxy_=None):
 				if sender_class.checktimeout(serv) == True:
 					if proxy_ != None:
 						result = sender_class.spam(serv, number, proxy=proxy_["format"])
-						logs.save_logs(serv, result[0])
+						if result[0] == False:
+							logs.save_logs(serv, result[0], error=str(result[1]))
+						else:
+							logs.save_logs(serv, result[0])
 						if result[0] == False:
 							# Checking the proxy before the next spam attempt
 							print(colored("Проверка прокси...", "yellow"))
@@ -734,7 +746,7 @@ def start(number, country, proxy_=None):
 										print(colored("Прокси работает, продолжаю спам!", "green"))
 						else:
 							circles += 1
-							if result[1] != False:
+							if result[0] != False:
 								if serv == "magnit":
 									if result[1]["status_code"] == 200:
 										FormattingResponse(200, serv)
@@ -746,9 +758,12 @@ def start(number, country, proxy_=None):
 								FormattingResponse(666, serv)
 					else:
 						result = sender_class.spam(serv, number)
-						logs.save_logs(serv, result[0])
+						if result[0] == False:
+							logs.save_logs(serv, result[0], error=str(result[1]))
+						else:
+							logs.save_logs(serv, result[0])
 						circles += 1
-						if result[1] != False:
+						if result[0] != False:
 							if serv == "magnit":
 								if result[1]["status_code"] == 200:
 									FormattingResponse(200, serv)
