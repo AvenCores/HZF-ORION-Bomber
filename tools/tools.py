@@ -173,7 +173,7 @@ def faq_proxy():
 	input()
 
 def github():
-	opengit = open("https://github.com/AvenCores/HZF-ORION-Bomber")
+	opengit = webbrowser.open("https://github.com/AvenCores/HZF-ORION-Bomber")
 	if opengit:
 		clear()
 		print(colored("Форк страница проекта была успешно открыта!", "green"))
@@ -186,7 +186,7 @@ def github():
 		input()
 
 def originalgithub():
-	opengit = open("https://github.com/Lucky1376/ORION-Bomber")
+	opengit = webbrowser.open("https://github.com/Lucky1376/ORION-Bomber")
 	if opengit:
 		clear()
 		print(colored("Официальная страница проекта была успешно открыта!", "green"))
