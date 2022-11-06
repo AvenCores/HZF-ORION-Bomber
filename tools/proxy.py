@@ -12,13 +12,6 @@ def SPC(ip, port, login=None, password=None):
 
     ip_user = requests.get("http://icanhazip.com/", headers={'User-Agent': ua}).text
     if login == None and password == None: # проверка публичных прокси
-        #try:
-        #    ip_proxy = requests.get("http://icanhazip.com/", headers={'User-Agent': ua}, proxies=proxy_https, timeout=5)
-        #    if ip_user not in ip_proxy.text and ip_proxy.status_code == 200:
-        #        return proxy_https
-        #    else:
-        #        return False                                                            #кирилл лох
-        #except:
         try:
             ip_proxy = requests.get("http://icanhazip.com/", headers={'User-Agent': ua}, proxies=proxy_http, timeout=5)
             if ip_user not in ip_proxy.text and ip_proxy.status_code == 200:
@@ -27,7 +20,7 @@ def SPC(ip, port, login=None, password=None):
                 return False
         except:
             return False
-    else: #checking private proxies
+    else:
         proxy_private_https = {'http': 'http://' + login + ':' + password + '@' + ip + ':' + port,
                                'https': 'http://' + login + ':' + password + '@' + ip + ':' + port}
         proxy_private_http = {'http': 'http://' + login + ':' + password + '@' + ip + ':' + port}
@@ -51,8 +44,6 @@ def SPC(ip, port, login=None, password=None):
 
 class Proxy:
 	def __init__(self, country=["ru", "by", "ua", "us"], unknown=False, timeout=15):
-		# Checking for Errors in Parameters
-		# -----------------------------------------------
 		if len(country) < 1:
 			print("Не указаны страны")
 			exit()
@@ -72,7 +63,6 @@ class Proxy:
 		if timeout < 10 or timeout > 15:
 			print("timeout не может быть меньше 10 или больше 15 секунд")
 			exit()
-		# -----------------------------------------------
 		self.unknown = unknown
 		self.country = country
 		self.timeout = timeout
@@ -114,7 +104,6 @@ class Proxy:
 			print("Список прокси пустой")
 			return
 		else:
-			# Progress bar
 			pr_b = []
 			for key in self.list:
 				for i in range(len(self.list[key])):
@@ -150,18 +139,13 @@ class Proxy:
 
 
 	def get(self):
-		# Progress bar
 		pr_b = [1, 2, 3, 4]
 		bar = ChargingBar('Парсинг', max = len(pr_b))
 
-		# User-Agent
 		ua = UA()
 
-		# Summary sheet with proxy
 		itog = {}
 
-		# https://hidemy.name
-		# -----------------------------------------------
 		"""Composing url Addresses for 1 service"""
 		url_list = {}
 		for ct in self.country:
@@ -194,12 +178,9 @@ class Proxy:
 					pred_itog = []
 		self.list = itog
 		bar.next()
-		# -----------------------------------------------
 
 		itog_2 = {}
 
-		# https://free-proxy-list.net
-		# -----------------------------------------------
 		can = False
 		try:
 			response = requests.get("https://www.sslproxies.org", headers={"User-Agent": ua.random}, timeout=self.timeout)
@@ -216,7 +197,6 @@ class Proxy:
 			for tr in all_list_bs:
 				for td in tr:
 					pred_itog.append(td.text.strip())
-				#print(pred_itog[2].lower())
 				if pred_itog[2].lower() not in self.country:
 					pred_itog = []
 					continue
@@ -230,12 +210,9 @@ class Proxy:
 				pred_itog = []
 		self.list_2 = itog_2
 		bar.next()
-		# -----------------------------------------------
 
 		itog_3 = {"unk":[]}
 
-		# https://proxyscrape.com
-		# -----------------------------------------------
 		if self.unknown == True:
 			can = False
 			try:
@@ -253,12 +230,9 @@ class Proxy:
 										  "port": port})
 			self.list_3 = itog_3
 		bar.next()
-		# -----------------------------------------------
 
 		itog_4 = {}
 
-		# https://proxylist.geonode.com
-		# -----------------------------------------------
 		"""Counting the number of pages on the service"""
 		col_page = 1
 		can = False
@@ -302,10 +276,7 @@ class Proxy:
 			except:
 				bar.next()
 				bar.finish()
-		# -----------------------------------------------
 
-
-		# -----------------------------------------------
 		"""Formation into one dictionary"""
 		l1 = self.list
 
@@ -328,4 +299,3 @@ class Proxy:
 			formation(self.list_4)
 
 		self.list = l1
-		# -----------------------------------------------

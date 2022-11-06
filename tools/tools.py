@@ -22,6 +22,8 @@ def FormattingNumber(number, country):
 			numb_6 = numb[:2] + " (" + numb[2:5] + ") " + numb[5:8] + " - " + numb[8:10] + " - " + numb[10:]
 			numb_7 = numb[:2] + " ("+numb[2:]
 			numb_8 = numb[2:]
+			numb_9 = numb[:2] + " (" + numb[2:5] + ") " + numb[5:8] + " " + numb[8:10] + numb[10:]
+			numb_10 = numb[:2] + ' ' + numb[2:5] + ' ' + numb[5:8] + "-" + numb[8:10] + "-" + numb[10:]
 		elif numb[0:1] == "7":  # 71234567890
 			numb_1 = "+"+numb
 			numb_2 = numb
@@ -32,6 +34,8 @@ def FormattingNumber(number, country):
 			numb_6 = numb[:2] + " (" + numb[2:5] + ") " + numb[5:8] + " - " + numb[8:10] + " - " + numb[10:]
 			numb_7 = numb[:2] + " ("+numb[2:]
 			numb_8 = numb[2:]
+			numb_9 = numb[:2] + " (" + numb[2:5] + ") " + numb[5:8] + " " + numb[8:10] + numb[10:]
+			numb_10 = numb[:2] + ' ' + numb[2:5] + ' ' + numb[5:8] + "-" + numb[8:10] + "-" + numb[10:]
 		elif numb[0:1] == "8":  # 81234567890
 			numb_1 = "+7"+numb[1:]
 			numb_2 = "7"+numb[1:]
@@ -42,6 +46,8 @@ def FormattingNumber(number, country):
 			numb_6 = numb[:2] + " (" + numb[2:5] + ") " + numb[5:8] + " - " + numb[8:10] + " - " + numb[10:]
 			numb_7 = numb[:2] + " ("+numb[2:]
 			numb_8 = numb[2:]
+			numb_9 = numb[:2] + " (" + numb[2:5] + ") " + numb[5:8] + " " + numb[8:10] + numb[10:]
+			numb_10 = numb[:2] + ' ' + numb[2:5] + ' ' + numb[5:8] + "-" + numb[8:10] + "-" + numb[10:]
 	elif country == "by": # For Belarus
 		if numb[0:1] == "+": # +123456789012
 			numb_1 = numb
@@ -58,7 +64,7 @@ def FormattingNumber(number, country):
 	if country == "by":
 		return numb_1, numb_2, numb_3, numb_4, numb_5
 	elif country == "ru":
-		return numb_1, numb_2, numb_3, numb_4, numb_5, numb_6, numb_7, numb_8
+		return numb_1, numb_2, numb_3, numb_4, numb_5, numb_6, numb_7, numb_8, numb_9, numb_10
 
 def clear():
 	if platform == "linux" or platform == "linux2" or platform == "unix":
@@ -92,7 +98,7 @@ def banner():
 	""", "red")
 
 	bombbanner = colored("	               [", "blue")+colored("sms bomber", "cyan")+colored("]", "blue")
-	fullinfo = colored("                         Сервисы", "green")+"\n"+colored("		Россия ", "blue")+colored("33", "green")+colored("	Беларусь ", "cyan")+colored("12\n", "green")
+	fullinfo = colored("                         Сервисы", "green")+"\n"+colored("		Россия ", "blue")+colored("40", "green")+colored("	Беларусь ", "cyan")+colored("12\n", "green")
 
 	info = " "*13+colored("[", "blue")+"Developers      :"+colored("HZF", "green")
 	info_2 = " "*13+colored("[", "blue")+"Version         :"+colored(ver, "red")
@@ -462,7 +468,7 @@ class Logs:
 	def error_logs(self, error):
 		date = datetime.now()
 		file_error = open("tools/error_logs.txt", "a")
-		file_error.write(f"DATE - {date}\nERROR:\n{error}")
+		file_error.write(f"DATE - {date}\nERROR:\n{error}\n")
 		file_error.close()
 
 def check_files():
