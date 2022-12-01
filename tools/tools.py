@@ -98,7 +98,7 @@ def banner():
 	""", "red")
 
 	bombbanner = colored("	               [", "blue")+colored("sms bomber", "cyan")+colored("]", "blue")
-	fullinfo = colored("                         Сервисы", "green")+"\n"+colored("		Россия ", "blue")+colored("40", "green")+colored("	Беларусь ", "cyan")+colored("12\n", "green")
+	fullinfo = colored("                         Сервисы", "green")+"\n"+colored("		Россия ", "blue")+colored("46", "green")+colored("	Беларусь ", "cyan")+colored("13\n", "green")
 
 	info = " "*13+colored("[", "blue")+"Developers      :"+colored("HZF", "green")
 	info_2 = " "*13+colored("[", "blue")+"Version         :"+colored(ver, "red")
@@ -398,7 +398,7 @@ def CFU():
 		a = open("tools/version.txt", "r")
 		current_ver = a.read()
 		a.close()
-		if last_ver != current_ver and platform != "win32":
+		if last_ver != current_ver:
 			clear()
 			print(colored("[!]", "magenta"), colored("Найдено новое обновление", "green"), colored(last_ver, "cyan")+colored("!", "green"))
 			print("")
@@ -410,43 +410,7 @@ def CFU():
 			while True:
 				how = input(colored("HZF ORION BOMBER ##>> ", "red"))
 				if how == "1":
-					clear()
-					print(colored("Устанавливаю архив...", "green"))
-					if platform == "linux" or platform == "linux2" or platform == "unix":
-						os.chdir("/data/data/com.termux/files/home")
-						os.system("rm -rf HZF-ORION-Bomber")
-						
-						result = r.get("https://github.com/AvenCores/HZF-ORION-Bomber/archive/refs/heads/master.zip")
-						
-						a = open("HZF-ORION-Bomber.zip", "wb")
-						a.write(result.content)
-						a.close()
-						
-						print(colored("Распаковка архива...", "green"))
-
-						fantasy_zip = zipfile.ZipFile("ORION-Bomber.zip")
-						fantasy_zip.extractall("ORION-Bomber")
-						fantasy_zip.close()
-						os.system("rm -rf HZF-ORION-Bomber.zip")
-
-						os.chdir("HZF-ORION-Bomber")
-						os.chdir("HZF-ORION-Bomber-master")
-						 
-						get_files = os.listdir(os.getcwd())
-						 
-						for g in get_files:
-							shutil.move(g, "/data/data/com.termux/files/home/HZF-ORION-Bomber")
-						os.chdir("/data/data/com.termux/files/home/HZF-ORION-Bomber")
-						os.system("rm -rf HZF-ORION-Bomber-master")
-
-						print(colored("Обновление прошло успешно, запускаю HZF-ORION-Bomber...", "green"))
-						time.sleep(1.5)
-
-						os.system("python Install.py")
-						os.system("python HZF-ORION-Bomber.py")
-						exit()
-					elif platform == "win32":
-						pass
+					webbrowser.open("https://github.com/AvenCores/HZF-ORION-Bomber")
 				elif how == "2":
 					clear()
 					break
