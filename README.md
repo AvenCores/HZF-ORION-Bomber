@@ -7,7 +7,7 @@ ___
 ___
 
 # 💻Меню
-![menu](https://i.imgur.com/rbMr5SP.png)
+![menu](https://i.imgur.com/N2wmgiW.png)
 
 ___
 # ❤️️**Без них не обошлись**
