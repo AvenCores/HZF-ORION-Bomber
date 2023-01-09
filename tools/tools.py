@@ -102,8 +102,9 @@ def banner():
 
 	info = " "*13+colored("[", "blue")+"Developers      :"+colored("HZF", "green")
 	info_2 = " "*13+colored("[", "blue")+"Version         :"+colored(ver, "red")
-	info_3 = " "*13+colored("[", "blue")+"Telegram Channel:"+colored("@hzfnews", "cyan")+colored("              <-- Подпишись!", "green")
+	info_3 = " "*13+colored("[", "blue")+"Telegram Channel:"+colored("hzfnews.t.me", "cyan")+colored("          <-- Подпишись!", "green")
 	info_4 = " "*13+colored("[", "blue")+"YouTube Channel :"+colored("youtube.com/c/HZFYT", "cyan")+colored("   <-- Подпишись!", "green")+"\n"
+	info_5 = " "*13+colored("[", "blue")+"VK Group        :"+colored("vk.com/hzforum1", "cyan")+colored("       <-- Подпишись!", "green")+"\n"
 
 	print(banner)
 	print(bombbanner)
@@ -112,6 +113,7 @@ def banner():
 	print(info_2)
 	print(info_3)
 	print(info_4)
+	print(info_5)
 
 def banner_tools():
 	print(colored("[1]", "red"), colored("Начать спам", "green"))
