@@ -48,8 +48,8 @@ ___
   + **`python HZF-ORION-Bomber.py`**
 
 + ### **Fedora Linux:**
-  + **sudo dnf update && sudo dnf upgrade**
-  + **sudo dnf install python python-pip git**
+  + **`sudo dnf update && sudo dnf upgrade`**
+  + **`sudo dnf install python python-pip git`**
   + **`git clone https://github.com/AvenCores/HZF-ORION-Bomber`**
   + **`cd HZF-ORION-Bomber`**
   + **`python Install.py`**
