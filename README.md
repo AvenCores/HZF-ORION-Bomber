@@ -39,10 +39,34 @@ ___
   + **`python Install.py`**
   + **`python HZF-ORION-Bomber.py`**
 
-+ #### **Windows 10/11:**
++ #### **Arch Linux:**
+  + **`sudo pacman -Syu`**
+  + **`sudo pacman -S python python-pip git`**
+  + **`git clone https://github.com/AvenCores/HZF-ORION-Bomber`**
+  + **`cd HZF-ORION-Bomber`**
+  + **`python Install.py`**
+  + **`python HZF-ORION-Bomber.py`**
+
++ ### **Fedora Linux:**
+  + **sudo dnf update && sudo dnf upgrade**
+  + **sudo dnf install python python-pip git**
+  + **`git clone https://github.com/AvenCores/HZF-ORION-Bomber`**
+  + **`cd HZF-ORION-Bomber`**
+  + **`python Install.py`**
+  + **`python HZF-ORION-Bomber.py`**
+
++ #### **Ubuntu Linux:**
+  + **`sudo apt update && sudo apt upgrade`**
+  + **`sudo apt install python python-pip git`**
+  + **`git clone https://github.com/AvenCores/HZF-ORION-Bomber`**
+  + **`cd HZF-ORION-Bomber`**
+  + **`python Install.py`**
+  + **`python HZF-ORION-Bomber.py`**
+
++ #### **Windows 10 and 11:**
   + `Требуется 64 битная система`
   + `Установить Python, при установке выбрать` **`add python to PATH`**
-  + `Python recommended 3.10.8:` [**`Download`**](https://www.python.org/)
+  + `Python recommended 3.11.1:` [**`Download`**](https://www.python.org/)
   + `Скачать архив и распаковать:` [**`HZF-ORION-Bomber.zip`**](https://github.com/AvenCores/HZF-ORION-Bomber/archive/refs/heads/master.zip)
   + `Открыть` **`cmd`** `или` **`powershell`**
   + `Перейти в директорию с файлами бомбера`
