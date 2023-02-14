@@ -23,8 +23,8 @@ ___
 
 ___
 # ⬇️Видео по установке и использовани⬇️
-## [**`YouTube Video`**](https://www.youtube.com/watch?v=fx6bYIAcpOM)
-[![ytad](https://i.imgur.com/kmZuKkt.png)](https://www.youtube.com/watch?v=fx6bYIAcpOM)
+## [**`YouTube Video`**](https://youtu.be/XZcZvAzBK2Q)
+[![ytad](https://i.imgur.com/d0Rmco5.png)](https://youtu.be/XZcZvAzBK2Q)
 
 ___
 # 🌐Установка
