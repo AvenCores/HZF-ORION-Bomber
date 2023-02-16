@@ -301,14 +301,6 @@
           "Accept-Language": "ru,en;q=0.9", "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8", "referer": "https://vesna.shop/", "User-Agent": "", "x-requested-with": "XMLHttpRequest"
         }
       },
-      "beeline": {
-        "cookies": "https://podarki.beeline.ru/",
-        "url": "https://g1.accelera.ai/api/auth/",
-        "json": "{'ctn': '*phone*', 'fingerprint': {'fingerprint': '2584445951', 'browser': 'Yandex','OS': 'Windows','osVersion': '10'}}",
-        "response": 200,
-        "timeout": 120,
-        "headers": {"Accept": "*/*", "Accept-Encoding": "gzip, deflate", "Accept-Language": "ru-RU,ru;q=0.9", "Authorization": "Key xPCYYlvB_5zKab4WztOFpDo1mngaEM889N5k7vhY", "User-Agent": ""}
-      },
       "lentacom": {
         "url": "https://lenta.com/api/v1/authentication/loginotp",
         "json": "{'phoneNumber': '*-phone*', 'ksid': 'L!be0e73c0-b0cf-8a67-7047-cfebc7980a66_0'}",
