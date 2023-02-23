@@ -7,7 +7,7 @@ ___
 ___
 
 # 💻Меню
-![menu-archlinux](https://i.imgur.com/mJAR0Ph.png)
+![menu-archlinux](https://i.imgur.com/rvN3CPo.png)
 
 ___
 # ❤️️**Без них не обошлись**
