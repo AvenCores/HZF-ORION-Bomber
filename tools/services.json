@@ -47,13 +47,6 @@
         "response": 200,
         "timeout": 300
       },
-      "yota": {
-        "url": "https://bmp.tv.yota.ru/api/v10/auth/register/msisdn",
-        "json": "{'msisdn': '*phone*', 'password': '123456'}",
-        "cookies": "https://tv.yota.ru/",
-        "response": 201,
-        "timeout": 60
-      },
       "b_apteka": {
         "url": "https://b-apteka.ru/lk/send_confirm_code",
         "json": "{'phone': '*phone*'}",
