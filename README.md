@@ -22,7 +22,7 @@ ___
 ## [**`Телеграм канал`**](https://t.me/hzfnews) `или` [**`FeedBack chat`**](https://t.me/+MDOUaUZzWlEwNjRi)
 
 ___
-# ⬇️Видео по установке и использовани⬇️
+# ⬇️Видео по установке и использовании⬇️
 ## [**`YouTube Video`**](https://youtu.be/XZcZvAzBK2Q)
 [![ytad](https://i.imgur.com/d0Rmco5.png)](https://youtu.be/XZcZvAzBK2Q)
 
